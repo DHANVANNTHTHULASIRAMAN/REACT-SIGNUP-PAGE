@@ -1,25 +1,16 @@
-A modern React Signup Form application built with React Hooks. Features real-time form state management, password and confirm password validation, user-friendly error handling, and JSON data output on successful form submission. Designed with a clean and responsive UI for learning React form handling and validation techniques.
+# React + Vite
 
-README Short Description:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Built with React Functional Components
-Uses useState for form management
-Validates Password & Confirm Password fields
-Displays validation errors
-Outputs submitted data in JSON format
-Responsive and modern UI design
+Currently, two official plugins are available:
 
-GitHub Topics :
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-react
-javascript
-signup-form
-form-validation
-react-hooks
-frontend
-json
-web-development
+## React Compiler
 
-Project Summary:
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-This project demonstrates how to create a signup form in React, manage form inputs using state, validate matching passwords, and generate JSON-formatted user data after successful submission. It is a beginner-friendly project for learning React forms and validation logic.
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
